@@ -4,8 +4,6 @@ export default function Results({ inputs }) {
   const results = calculateInvestmentResults(inputs)
   const initialInvestment = results[0].valueEndOfYear - results[0].interest - results[0].annualInvestment
 
-  console.log(results)
-
   return (
     <table id="result">
       <thead>
